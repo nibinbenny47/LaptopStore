@@ -11,5 +11,5 @@
     Photo:<asp:FileUpload runat="server" ID="fileimage" />
     username:<asp:TextBox runat="server" ID="txtusername"></asp:TextBox>
     password:<asp:TextBox runat="server" ID="txtpassword"></asp:TextBox>
-    <asp:Button runat="server" ID="btnsave" Text="save" />
+    <asp:Button runat="server" ID="btnsave" Text="save" OnClick="btnsave_Click" />
 </asp:Content>
